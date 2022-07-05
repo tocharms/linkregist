@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "predeploy":"nuxt generate",
-    "deploy":"push-dir --dir=dist --branch=gh-pages --cleanupnpm run generate",
+    "predeploy": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanupnpm run generate",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
